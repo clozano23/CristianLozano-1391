@@ -71,8 +71,12 @@ main {
 footer {
     grid-area: E;
     background-color: #57C5B6;
+    font-size: 10px;
 }
 
-audio {
-    
+h6 {
+    font-size: 15px;
+    text-align: center;
+    margin: 3px;    margin: 3px;
+    margin-left: 3px;
 }
