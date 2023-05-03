@@ -1,0 +1,87 @@
+/**se crea la division de las cajas y se les representa por letras**/
+.contenedor {
+    display: grid;
+    grid-template-areas:
+        'A A A A '
+        'B B B B '
+        'C C D D '
+        'E E E E ';
+}
+
+/**estilos de el encabezado, o sea el titulo**/
+header {
+    grid-area: A;
+    background-color: #CFF5E7;
+}
+
+/**estilos de la caja donde esta las barras de menu o inicio**/
+nav {
+    grid-area: B;
+    background-color: #7FE9DE;
+    justify-content: space-around;
+}
+
+/** estilos del menu horizontal, posicion, distribucion, llenado**/
+.menu-horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    list-style: none;
+}
+
+/**estilo menu horizontal, se ponen color a la letra y el colo del fondo de los titulos del inicio, se define el espcio
+o margen en pixeles entre titulos.**/
+.menu-horizontal A {
+    background-color: #46C2CB;
+    color: white;
+    text-decoration: none;
+    padding: 10px 40px;
+    margin: 3px;
+}
+
+.menu-vertical {
+    list-style: none;
+}
+
+/** estilo deL menu vertical, se pone color de fondo, se da espacio entre titulos, se da espacio entre margenes,
+sin cambiar la posicion vertical**/
+.menu-vertical a {
+    background-color: #46C2CB;
+    color: white;
+    text-decoration: none;
+    padding: 10px 40px;
+    margin: 3px;
+    display: block;
+}
+
+
+/** estilo de la caja de la descripcion del tema**/
+aside {
+    grid-area: C;
+    background-color: #CFF5E7;
+}
+
+/** estilo de la caja de la descrpcion del tema seleccionado**/
+main {
+    grid-area: D;
+    background-color: #CFF5E7;
+}
+
+/** estilo de la caja del pie de pagina**/
+footer {
+    margin: 3px;
+    grid-area: E;
+    background-color: #57C5B6;
+    font-size: 15px;
+    padding: 0px 20px;
+}
+
+h6 {
+    font-size: 15px;
+    text-align: center;
+    margin: 3px;    margin: 3px;
+    margin-left: 3px;
+}
+.alejar-texto-izq{
+    padding: 0px 20px;
+}

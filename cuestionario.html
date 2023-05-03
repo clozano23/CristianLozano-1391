@@ -52,61 +52,40 @@
         </div>
     </nav>
 
-    <!-- esta es la seccion del inicio o tema principal-->
-    <hr>
-    <aside>
-        <ul class="menu-vertical">
-    </aside>
-    <!-- esta es la seccion del desarollo de tema que seleccione -->
-    <hr>
-    <main>
-        <section>
-            <h2> Selectores CSS</h2>
-            <audio controls class="audio">
-                <source src="audio/inicio del tema.m4a" type="audio/ogg">
-                Your browser does not support the audio element
-            </audio>
-            <img src="imagenes/tipo de selec 1.jpg" alt="">
-        </section>
-        <section>
-            <audio controls class="audio">
-                <source src="audio/prim tipo de selector.m4a" type="audio/ogg">
-                Your browser does not support the audio element
-            </audio>
-            <img src="imagenes/tipo de selec 2.jpg" alt="">
-        </section>
-        <section>
-            <audio controls class="audio">
-                <source src="audio/seg tipo de selector.m4a" type="audio/ogg">
-                Your browser does not support the audio element
-            </audio>
-            <img src="imagenes/tipo de selec 3.jpg" alt="">
-        </section>
-        <section>
-            <audio controls class="audio">
-                <source src="audio/3er tipo de selector.m4a" type="audio/ogg">
-                Your browser does not support the audio element
-            </audio>
-            <img src="imagenes/tipo de selec 4.jpg" alt="">
-        </section>
-        <hr>
-        <section>
-            <h2> Audio Box Model</h2>
-            <audio controls class="audio">
-                <source src="audio/inicio del tema.m4a" type="audio/ogg">
-                Your browser does not support the audio element
-            </audio>
-            <img src="imagenes/boxmodel.png" alt="">
-        </section>
 
-    </main>
-    <hr>
-    <!-- esta esta seccion del acerca de o pie de pagina -->
+    <!-- codigo del cuestionario-->
+
+
+    <h1 id="resultado"> Responda las siguientes preguntas</h1>
+    <div>
+        <form name="formulario">
+            <h3> 1. la etiqueta que se usa para colocar un enlace a una pagina web es?</h3>
+
+            <input type="radio" name="r1" value="a"> a. link <br>
+            <input type="radio" name="r1" value="b"> b. src <br>
+            <input type="radio" name="r1" value="c"> c. a <br>
+
+            <h3> 2. la propiedad con la que se define el comportamiento de un contenedor es?</h3>
+
+            <input type="radio" name="r2 value="a"> a. display <br>
+            <input type="radio" name="r2" value="b"> b. position <br>
+            <input type="radio" name="r2" value="c"> c. color <br>
+
+            <h3> 3. la etiqueta para definir un texto como importamte es?</h3>
+
+            <input type="radio" name="r3" value="a"> a. single <br>
+            <input type="radio" name="r3" value="b"> b. strong <br>
+            <input type="radio" name="r3" value="a"> c. important <br>
+
+            <input type="button" value="enviar" onclick="procesarRespuestas()">
+        </form>
+    </div>
+    <!-- esta esta seccion del acerca de o pie de pagina // seccion de color verde -->
     <footer>
         <p> esta pagina fue desarrollada por Cristian Lozano y Helber Alonso Bohorquez </p>
         <p> fecha de actualización 09 de abril de 2023 </p>
     </footer>
+    <script src="js/script.js">
 
-</body>
 
-</html>
+</html >
