@@ -85,3 +85,8 @@ h6 {
 .alejar-texto-izq{
     padding: 0px 20px;
 }
+
+.cuestionario {
+    grid-area: D;
+    background-color:  #CFF5E7;   
+}
