@@ -90,3 +90,8 @@ h6 {
     grid-area: D;
     background-color:  #CFF5E7;   
 }
+
+/** estilo para justificar el tema investigado, fase 4**/
+.text-justify {
+    text-align: justify;
+  }

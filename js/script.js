@@ -3,7 +3,7 @@ function procesarRespuestas() {
     let puntos = 0;
 
     let myform = document.forms["cuestionario"];
-    let respuestasCorrectas = ["c","a","b","c","a"];
+    let respuestasCorrectas = ["c","a","b","c","d"];
 
     for (let i =1; i <= total; i++) {    
         if (myform["r" + i].value == null ||
