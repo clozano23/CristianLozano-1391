@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>fase3</title>
+    <title>Cuestionario</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
@@ -13,6 +13,7 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
+
 
 <body class="contenedor">
     <!-- seccion ENCABEZADO header de color amarillo -->
@@ -52,40 +53,65 @@
         </div>
     </nav>
 
+    <!-- esta es la seccion del inicio o tema principal-->
+    <hr>
+    <aside>
+        <ul class="menu-vertical">
+    </aside>
 
-    <!-- codigo del cuestionario-->
+    <!-- seccion para el cuestionario -->
+<hr>
+    <body>
+        <div class="cuestionario">
+            <h1 id="resultado"> Responda las siguientes preguntas</h1>
+            <form name="cuestionario">
+                <h3> 1. React es una alternativa de?</h3>
 
+                <input type="radio" name="r1" value="a"> a. css <br>
+                <input type="radio" name="r1" value="b"> b. src <br>
+                <input type="radio" name="r1" value="c"> c. Frameworks <br>
+                <input type="radio" name="r1" value="d"> d. todas las anteriores <br>
 
-    <h1 id="resultado"> Responda las siguientes preguntas</h1>
-    <div>
-        <form name="formulario">
-            <h3> 1. la etiqueta que se usa para colocar un enlace a una pagina web es?</h3>
+                <h3> 2. cual es la razon de haber diseñado NodeJS?</h3>
 
-            <input type="radio" name="r1" value="a"> a. link <br>
-            <input type="radio" name="r1" value="b"> b. src <br>
-            <input type="radio" name="r1" value="c"> c. a <br>
+                <input type="radio" name="r2" value="a"> a. crear aplicaciones estables<br>
+                <input type="radio" name="r2" value="b"> b. modificar los bloqueos en css <br>
+                <input type="radio" name="r2" value="c"> c. crear subprocesos <br>
+                <input type="radio" name="r2" value="d"> d. todas las anteriores <br>
 
-            <h3> 2. la propiedad con la que se define el comportamiento de un contenedor es?</h3>
+                <h3> 3. como se considera la ApiRest?</h3>
 
-            <input type="radio" name="r2 value="a"> a. display <br>
-            <input type="radio" name="r2" value="b"> b. position <br>
-            <input type="radio" name="r2" value="c"> c. color <br>
+                <input type="radio" name="r3" value="a"> a. interaccion entre computadora y el sistema <br>
+                <input type="radio" name="r3" value="b"> b. contrato entre proveedor y usuario <br>
+                <input type="radio" name="r3" value="c"> c. recursos de la interaccion de la seguridad <br>
+                <input type="radio" name="r3" value="d"> d. todas las anteriores <br>
 
-            <h3> 3. la etiqueta para definir un texto como importamte es?</h3>
+                <h3> 4. que es TypeScript de JavaScrypt?</h3>
 
-            <input type="radio" name="r3" value="a"> a. single <br>
-            <input type="radio" name="r3" value="b"> b. strong <br>
-            <input type="radio" name="r3" value="a"> c. important <br>
+                <input type="radio" name="r4" value="a"> a. navegador <br>
+                <input type="radio" name="r4" value="b"> b. lengauje <br>
+                <input type="radio" name="r4" value="c"> c. superconjunto <br>
+                <input type="radio" name="r4" value="d"> d. todas las anteriores <br>
 
-            <input type="button" value="enviar" onclick="procesarRespuestas()">
-        </form>
-    </div>
-    <!-- esta esta seccion del acerca de o pie de pagina // seccion de color verde -->
-    <footer>
-        <p> esta pagina fue desarrollada por Cristian Lozano y Helber Alonso Bohorquez </p>
-        <p> fecha de actualización 09 de abril de 2023 </p>
-    </footer>
-    <script src="js/script.js">
+                <h3> 5. quinta pregunta?</h3>
 
+                <input type="radio" name="r5" value="a"> a. creacion de marca <br>
+                <input type="radio" name="r5" value="b"> b. creacion de menciones y redes sociales <br>
+                <input type="radio" name="r5" value="c"> c. marketing de contenido <br>
+                <input type="radio" name="r5" value="d"> d. todas las anteriores <br>
 
-</html >
+                <input type="button" value="enviar" onclick="procesarRespuestas()">
+            </form>
+        </div>
+        <script src="js/script.js"></script>
+
+        <hr>
+        <!-- esta esta seccion del acerca de o pie de pagina -->
+        <footer>
+            <p> esta pagina fue desarrollada por Cristian Lozano </p>
+            <p> fecha de actualización 11 de mayo de 2023 </p>
+        </footer>
+        <hr>
+    </body>
+
+</html>

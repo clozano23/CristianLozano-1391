@@ -85,3 +85,13 @@ h6 {
 .alejar-texto-izq{
     padding: 0px 20px;
 }
+
+.cuestionario {
+    grid-area: D;
+    background-color:  #CFF5E7;   
+}
+
+/** estilo para justificar el tema investigado, fase 4**/
+.text-justify {
+    text-align: justify;
+  }
